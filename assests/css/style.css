@@ -1,0 +1,748 @@
+ 
+ 
+
+
+
+#paper{
+   
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    background: rgb(245, 191, 245);
+    align-items: center;
+    margin-top: 4px;
+    margin-left: 1px;
+    margin-right: 1px;
+  
+    margin-top: 75px;
+    
+    
+}
+
+
+.nav-link{
+    align-items: right;
+    color: rgb(99, 45, 207);
+    font-size: 20px;
+    font-family: Arial;
+    display: flex;
+   text-align: right;
+   justify-content: space-between;
+   border-radius: 1px;
+
+}
+
+#logo{
+    color: rgb(52, 52, 57) ;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Arial;
+    text-align: center;
+    letter-spacing: 2px;
+
+
+
+    
+
+}
+nav ul li{
+  margin-left: 30px;
+
+}
+#paper.nav-link{
+  padding: 6px 15px;
+  color: blue;
+  transition: 1sec;
+  
+  
+}
+
+nav ul li a:hover{
+    color: rgb(46, 44, 45);
+    background-color: #fff;
+    border-radius: 30px;
+
+}
+nav ul li.active a{
+  color: rgb(46, 44, 45);
+    background-color: #fff;
+    border-radius: 30px;
+}
+nav{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    
+
+}
+
+
+    /*--------------------------------------------------------------
+# bg Section
+--------------------------------------------------------------*/
+#bg {
+    width: 100%;
+    height: 80vh;
+    background: url("/img/chat-raj.jpg") top center;
+    
+    background-size: cover;
+    position: relative;
+  }
+  
+  #bg:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #bg .container {
+    padding-top: 72px;
+  }
+  
+  @media (max-width: 992px) {
+    #bg .container {
+      padding-top: 62px;
+    }
+  }
+  
+  #bg h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #bg h2 {
+    color: #eee;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+  }
+  
+  #bg .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #bg .btn-get-started:hover {
+    background: #5fcf80;
+    border: 2px solid #5fcf80;
+  }
+  
+  @media (min-width: 1024px) {
+    #bg {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #bg {
+      height: 100vh;
+    }
+  
+    #bg h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    #bg h2 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+
+
+
+  
+
+
+/*--------------------------------------------------------------
+# Why Us
+--------------------------------------------------------------*/
+.radical .content {
+  padding: 30px;
+  background: #22f05c;
+  border-radius: 4px;
+  color: #f9f9fa;
+  align-items: center;
+  
+  
+}
+
+.radical .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.radical .content p {
+  margin-bottom: 30px;
+}
+
+.radical .content .more-btn {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+}
+
+.radical .content .more-btn i {
+  font-size: 14px;
+}
+
+.radical .content .more-btn:hover {
+  color: #5fcf80;
+  background: #fff;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  color: #37423b;
+  font-size: 14px;
+  background: #eef0ef;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: #f9faf9;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h4 {
+  font-size: 22px;
+  margin: 0 0 30px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #777777;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #5fcf80;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #5fcf80;
+}
+
+#footer .footer-newsletter {
+  font-size: 15px;
+}
+
+#footer .footer-newsletter h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  text-align: left;
+  border: 1px solid #e0e5e2;
+}
+
+#footer .footer-newsletter form input[type=email] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type=submit] {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px 2px 20px;
+  background: #5fcf80;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footer .footer-newsletter form input[type=submit]:hover {
+  background: #3ac162;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+#footer .credits a {
+  color: #3ac162;
+  transition: 0.3s;
+}
+
+#footer .credits a:hover {
+  color: #5fcf80;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #bcf4cd;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  background: #3ac162;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* about header    and course header and trainer header and contact header*/
+
+.auto
+{
+padding: 5px;
+background-color: #5fcf80;
+border: none;
+float: center;
+color: #ffffff;
+margin-left: 1px;
+margin-right: 1px;
+border-radius: 2px;
+height: 150px;
+
+}
+
+
+
+@media(max-width:726px){
+  .about .container{
+    margin: 0 45px 0 0;
+    padding: 0;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  padding: 30px 0;
+}
+
+
+.counts p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: #0a16f1;
+  background-color: #929892;
+}
+
+.counts p:hover{
+  background-color: #7ed899;
+  color: black;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials .testimonial-wrap {
+  padding-left: 50px;
+}
+
+
+
+
+.testimonials.section-title h2{
+  margin-left: 50px;
+  background-color: blue;
+  display: inline-block;
+
+}
+
+.testimonials .testimonial-item {
+  box-sizing: content-box;
+  padding: 30px 30px 30px 60px;
+  margin: 30px 15px;
+  min-height: 200px;
+  border: 1px solid #eef0ef;
+  position: relative;
+  
+  background-color: #22f05c;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+  width: 90px;
+  border-radius: 10px;
+  border: 6px solid #fff;
+  position: absolute;
+  left: -45px;
+}
+
+.testimonials .testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+}
+
+.testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #717070;
+  margin: 0;
+}
+
+.testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 15px auto 15px auto;
+}
+
+@media (max-width: 767px) {
+ 
+
+  .testimonials .testimonial-item .testimonial-img {
+    position: static;
+    left: auto;
+  }
+}
+.testimonial-img{
+  height: 150px;
+  width: 50px;
+}
+
+/* course section */
+div.btn-learn-more{
+ display: inline-block;
+ font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 10px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    border: 2px solid #cfd1cf;
+    color: #fff;
+    text-decoration: none;
+  
+}
+div.btn-learn-more:hover{
+  background-color: rgb(91, 239, 140);
+  color: white;
+
+}
+div#courses{
+  background-color: #cfd1cf;
+  color: rgb(10, 7, 7);
+}
+
+div.course-content h3{
+  transition: 0.3sec ease;
+  border-radius: 2px;
+  display: block;
+  background-color: #686fef;
+}
+
+div.course-content h3:hover{
+  color: white;
+  background-color: #5fcf80;
+}
+/* end course section */
+
+
+/* traineers */
+.member-content h4{
+  background-color: #7a81f8;
+  border-radius: 3px;
+  transition: 0.10sec ease;
+
+}
+
+.member-content h4:hover{
+  background-color: #5fcf80;
+  color: white;
+  
+}
+.member-content span{
+  background-color: none;
+  display: block;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.member-content span:hover{
+  background-color: #7ed899;
+  color: white;
+}
+
+#teachers .social{
+  margin-bottom: 20px;
+}
+
+#teachers .social a{
+  border-radius: 50px;
+  background-color: #717070;
+  font-size: 18px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  
+  
+  
+}
+
+#teachers .social a:hover {
+  background: #3ac162;
+  color: #fff;
+  text-decoration: none;
+}
+#trainers .member{
+  background-color: #bec3f7;
+}
+
+#trainers .guys{
+  background-color: #e8f5ec;
+}
+.img-fluid{
+  height: 336px;
+  width: 356px;
+
+}
+
+
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact {
+  padding-top: 5px;
+}
+
+.contact .info {
+  width: 100%;
+  background: #aebcf5;
+  height: 400px;
+  margin-left: 5px;
+  
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #5fcf80;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #ecf9f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #0b120e;
+  margin-top: 50px;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #313a35;
+  margin-top: 15px;
+  
+}
+
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #5fcf80;
+  color: #fff;
+}
+
+.contactusform{
+  color: rgb(19, 161, 218);
+  box-sizing: border-box;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  
+}
+.contact::berore{
+  background-color: #cfd86b;
+}
+
+
+.contactform{
+  background-color: #22f05c;
+  height: 500px;
+  width: 600px;
+
+}
+.contant{
+  margin-top: 15px;
+  align-items: right;
+}
+.protect{
+  background-color: yellowgreen;
+  height: 550px;
+}
+.fixednavbar{
+  position: fixed;
+top: 0;
+z-index: 999999;
+background: rgb(245, 191, 245);
+}
+@media (max-width: 500px){
+ #contact{
+  position: absolute;
+  
+} 
+}
+
+
+
+/*--------------------------------------------------------------
+# Trainers
+--------------------------------------------------------------*/
+
+
+
+
+
+.trainers .member .social {
+  margin-top: 15px;
+}
+
+.trainers .member .social a {
+  color: #7e9486;
+  transition: 0.3s;
+}
+
+.trainers .member .social a:hover {
+  color: #5fcf80;
+}
+
+.trainers .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
